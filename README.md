@@ -1,6 +1,10 @@
-# Claude Config - Auto-Init System
+# Claude Code Auto-Init System
 
-Automatically generate CLAUDE.md and AGENT.md files for your projects with framework-specific best practices.
+> **Automatically generate project-specific CLAUDE.md files with framework detection and template-based generation**
+
+[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
+[![Status](https://img.shields.io/badge/status-production-success.svg)]()
 
 ## Features
 
@@ -50,19 +54,20 @@ The system will:
 4. 💾 Create backups of existing files
 5. ✅ Validate the output
 
+## 📚 Documentation
+
+- **[Getting Started](./docs/getting-started.md)** - Installation and first steps
+- **[Template Guide](./docs/templates.md)** - Customization and creating templates
+- **[API Reference](./docs/api.md)** - PowerShell script API
+- **[Troubleshooting](./docs/troubleshooting.md)** - Common issues and solutions
+
 ## Examples
 
 See the `examples/` directory for complete generated files:
 
-- [`examples/nextjs/`](examples/nextjs/) - Next.js 14 App Router project
-- [`examples/fastapi/`](examples/fastapi/) - FastAPI + Pydantic v2 project
-- [`examples/react-vite/`](examples/react-vite/) - React 18 + Vite project
-
-## Documentation
-
-- [Getting Started](docs/getting-started.md) - Detailed installation and usage
-- [Templates](docs/templates.md) - Template customization guide
-- [API Reference](docs/api.md) - PowerShell script API
+- [`examples/nextjs-example/`](examples/nextjs-example/) - Next.js 14 App Router project
+- [`examples/fastapi-example/`](examples/fastapi-example/) - FastAPI + Pydantic v2 project
+- [`examples/generic-example/`](examples/generic-example/) - Generic fallback template
 
 ## Architecture
 

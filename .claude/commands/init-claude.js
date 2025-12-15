@@ -15,7 +15,7 @@ const path = require('path');
 const fs = require('fs');
 
 // Configuration
-const SCRIPTS_DIR = path.join(__dirname, '..', '..', 'scripts');
+const SCRIPTS_DIR = path.join(__dirname, '..', 'scripts', 'auto-init');
 const isWindows = process.platform === 'win32';
 
 // Script chain (in execution order)

@@ -1,0 +1,31 @@
+{
+  "framework": {
+    "name": "Next.js",
+    "version": "14.2.5",
+    "router": "App Router"
+  },
+  "projectType": "nextjs",
+  "projectPath": "C:\\Projects\\nextjs-example",
+  "packageManager": "npm",
+  "testFramework": "jest",
+  "hasTests": true,
+  "confidence": 95,
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.3.3",
+    "@types/react": "18.2.0",
+    "@types/node": "20.10.0",
+    "eslint": "8.56.0",
+    "jest": "29.7.0",
+    "@testing-library/react": "14.1.2"
+  },
+  "scannedAt": "2025-12-15T13:00:00Z",
+  "templateUsed": "nextjs.template.md",
+  "variablesApplied": {
+    "SERVER_COMPONENTS": true,
+    "API_ROUTES": true,
+    "CODE_STYLE": "functional"
+  }
+}
