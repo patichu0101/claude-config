@@ -1,0 +1,38 @@
+# Backups (auto-generated)
+*.backup.*
+CLAUDE.md.backup.*
+AGENT.md.backup.*
+
+# Secrets
+secrets.env
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Temporary
+tmp/
+temp/
+*.tmp
